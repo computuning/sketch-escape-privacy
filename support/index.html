@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#241f1a">
+  <meta name="description" content="Support information and troubleshooting for Sketch Escape.">
+  <title>Sketch Escape Support</title>
+  <style>
+    :root {
+      --graphite: #241f1a;
+      --muted: #71685d;
+      --paper: #fbf7ef;
+      --paper-deep: #f1e8da;
+      --gold: #c9933d;
+      --line: #dfd3c2;
+      --white: #fffdf8;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--graphite);
+      background:
+        radial-gradient(circle at 12% 0%, rgba(201, 147, 61, 0.13), transparent 28rem),
+        var(--paper-deep);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    a {
+      color: #775115;
+      font-weight: 650;
+      text-underline-offset: 0.2em;
+    }
+
+    a:hover { color: #4f350e; }
+
+    a:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+
+    .shell {
+      width: min(100% - 32px, 840px);
+      margin: 32px auto;
+      overflow: hidden;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: 0 18px 60px rgba(36, 31, 26, 0.09);
+    }
+
+    header {
+      padding: 48px clamp(24px, 7vw, 64px) 42px;
+      color: var(--white);
+      background: var(--graphite);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 22px;
+      color: #f1ca84;
+      font-size: 0.78rem;
+      font-weight: 750;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .pencil {
+      width: 28px;
+      height: 7px;
+      background: var(--gold);
+      border-radius: 999px 2px 2px 999px;
+      transform: rotate(-18deg);
+      box-shadow: inset -5px 0 #e4b25e;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.15rem, 7vw, 3.6rem);
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+    }
+
+    header p {
+      max-width: 55ch;
+      margin: 16px 0 0;
+      color: #d9d0c4;
+    }
+
+    main { padding: 44px clamp(24px, 7vw, 64px) 56px; }
+
+    section + section {
+      margin-top: 38px;
+      padding-top: 38px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: clamp(1.45rem, 5vw, 1.9rem);
+      line-height: 1.25;
+      letter-spacing: -0.025em;
+    }
+
+    p { margin: 8px 0 0; }
+
+    .note {
+      margin-top: 18px;
+      padding: 16px 18px;
+      color: #554735;
+      background: #f7efdf;
+      border-left: 4px solid var(--gold);
+      border-radius: 4px 14px 14px 4px;
+    }
+
+    .steps {
+      display: grid;
+      gap: 12px;
+      margin: 20px 0 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: steps;
+    }
+
+    .steps li {
+      position: relative;
+      min-height: 64px;
+      padding: 16px 18px 16px 62px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      counter-increment: steps;
+    }
+
+    .steps li::before {
+      content: counter(steps);
+      position: absolute;
+      top: 14px;
+      left: 16px;
+      width: 32px;
+      height: 32px;
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      background: var(--graphite);
+      border-radius: 50%;
+      font-size: 0.86rem;
+      font-weight: 750;
+    }
+
+    .contact-card {
+      margin-top: 18px;
+      padding: 20px;
+      background: var(--paper-deep);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+
+    .contact-card p:first-child { margin-top: 0; }
+
+    .email {
+      display: inline-block;
+      margin-top: 8px;
+      overflow-wrap: anywhere;
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    }
+
+    footer {
+      padding: 24px clamp(24px, 7vw, 64px);
+      color: #bfb4a6;
+      background: var(--graphite);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 560px) {
+      .shell {
+        width: 100%;
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+      }
+
+      header { padding-top: 40px; }
+      main { padding-top: 36px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="brand"><span class="pencil" aria-hidden="true"></span>Sketch Escape</div>
+      <h1>Sketch Escape Support</h1>
+      <p>Welcome. We are here to help you get back to solving every line.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="welcome-heading">
+        <h2 id="welcome-heading">Welcome</h2>
+        <p>Thank you for playing Sketch Escape. If you have a question or run into a problem, try the steps below or contact us directly.</p>
+      </section>
+
+      <section aria-labelledby="account-heading">
+        <h2 id="account-heading">Your game data</h2>
+        <p>Sketch Escape does not require an account or login. Your game progress and preferences are stored locally on your device.</p>
+        <p class="note"><strong>Please note:</strong> Local progress may not transfer to another device. Removing and reinstalling the app may also erase your progress and saved preferences.</p>
+      </section>
+
+      <section aria-labelledby="troubleshooting-heading">
+        <h2 id="troubleshooting-heading">Basic troubleshooting</h2>
+        <ol class="steps">
+          <li>Close Sketch Escape completely, then open the app again.</li>
+          <li>Restart your iPhone or iPad.</li>
+          <li>Check that your device is running the latest available version of iOS or iPadOS.</li>
+          <li>Reinstall the app only if the other steps do not help. Reinstalling may permanently remove locally stored progress and preferences.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact support</h2>
+        <p>For help with Sketch Escape, email Computuning Games. Including your device model, iOS version, and a short description of the issue will help us assist you.</p>
+        <div class="contact-card">
+          <p><strong>Email</strong></p>
+          <a class="email" href="mailto:computuning@gmail.com">computuning@gmail.com</a>
+        </div>
+      </section>
+
+      <section aria-labelledby="privacy-heading">
+        <h2 id="privacy-heading">Privacy</h2>
+        <p>For details about how Sketch Escape handles information, read our <a href="https://computuning.github.io/sketch-escape-privacy/">Privacy Policy</a>.</p>
+      </section>
+    </main>
+
+    <footer>© 2026 Computuning Games</footer>
+  </div>
+</body>
+</html>
