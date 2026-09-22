@@ -186,14 +186,14 @@
     <main>
       <section id="english" lang="en">
         <h2>Privacy Policy</h2>
-        <p class="updated"><strong>Last updated:</strong> August 26, 2026</p>
+        <p class="updated"><strong>Last updated:</strong> September 22, 2026</p>
 
         <h3>About Sketch Escape</h3>
         <p>Sketch Escape is an offline-first mobile puzzle game published by Computuning Games. No account is required to play.</p>
-        <p class="status"><strong>Current configuration:</strong> advertising, Firebase initialization, and crash reporting are disabled. The game does not send gameplay progress or settings to a Computuning Games server. Optional third-party integrations are described below so this policy can be updated accurately before any configuration that enables them is distributed.</p>
+        <p class="status"><strong>Current production configuration:</strong> user-initiated rewarded advertising is provided through Google AdMob. Banner and interstitial ads, Unity Ads, Firebase initialization, and crash reporting are disabled. The game does not send gameplay progress or settings to a Computuning Games server.</p>
 
         <h3>Information We Collect</h3>
-        <p>In the current configuration, Computuning Games does not collect personal information through Sketch Escape. The app has no account registration, login, profile, or personal-data entry form, and it does not request location, contacts, camera, microphone, or file-storage access.</p>
+        <p>Computuning Games does not collect information through an account, profile, personal-data form, or a first-party server. The app does not request location, contacts, camera, microphone, or file-storage access. Google Mobile Ads may automatically collect and share the advertising-related information described below.</p>
 
         <h3>Information Stored on Your Device</h3>
         <p>Sketch Escape stores game data locally on your device so that the game can remember your progress and preferences. This may include:</p>
@@ -207,14 +207,15 @@
         <p>This data is stored with the device's local application storage. It is not tied to an account and, in the current configuration, is not sent to a Computuning Games server.</p>
 
         <h3>Advertising</h3>
-        <p>Advertising is disabled in the current configuration, and the app does not initialize or display ads. The codebase includes the Google Mobile Ads SDK for a possible future production configuration. That dependency may add advertising-related capabilities and permissions to the Android app package even while runtime ad initialization is disabled.</p>
-        <p>If advertising is enabled in a future distributed version, Google and its partners may process device identifiers, IP address, ad interactions, diagnostics, and other data under their own terms. Before such a version is released, this policy and the Google Play Data safety disclosure must be reviewed and updated. See <a href="https://policies.google.com/technologies/ads">How Google uses information for advertising</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+        <p>Sketch Escape offers optional rewarded ads after a player chooses an in-game advertising action. A game reward is granted only after the rewarded ad provider reports successful completion. Banner and automatic interstitial ads are disabled in this release.</p>
+        <p>The Google Mobile Ads SDK may automatically collect and share IP address (which may be used to estimate general location), app and ad interactions such as launches, taps and video views, diagnostic and performance information, and device or account identifiers such as the Android advertising ID and app set ID. Google states that this data is used for advertising, analytics, and fraud prevention and is encrypted in transit. See <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads data disclosure</a>, <a href="https://policies.google.com/technologies/ads">How Google uses information for advertising</a>, and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+        <p>Where required, Sketch Escape uses Google's User Messaging Platform to request and store advertising consent choices before requesting ads. A Privacy Choices entry in Settings is available when Google reports that a privacy-options form is required.</p>
 
         <h3>Analytics and Crash Reporting</h3>
         <p>Firebase Core and Firebase Crashlytics integration code is present, but Firebase initialization and Crashlytics reporting are disabled in the current configuration. Firebase Analytics is not included or used. If Crashlytics or another Firebase service is enabled in a future distributed version, the policy and store disclosures will be updated before release. More information is available from <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a>.</p>
 
         <h3>Third-Party Services</h3>
-        <p>The project contains optional integrations for Google Mobile Ads, Firebase Core/Crashlytics, and Unity Ads. In the current configuration these services are not initialized for advertising, analytics, or crash reporting. Unity Ads is explicitly disabled. Links you choose to open and Google Play update features, when available, are handled by the relevant platform or external service under its own privacy terms.</p>
+        <p>Google Mobile Ads is active only for user-initiated rewarded advertising. Firebase Core/Crashlytics and Unity Ads code is present but those services are not initialized in the current production configuration. Links you choose to open and Google Play update features, when available, are handled by the relevant platform or external service under its own privacy terms.</p>
 
         <h3>Children's Privacy</h3>
         <p>Sketch Escape is not specifically directed to children. The app does not knowingly provide an account or form through which a child can submit personal information to Computuning Games. If you believe information has been provided unexpectedly, please use the contact details below.</p>
@@ -226,7 +227,7 @@
         <p>Sketch Escape minimizes data handling by keeping game progress and preferences on the device. No method of storage is guaranteed to be completely secure, so you should also use the security features provided by your device and platform.</p>
 
         <h3>Your Choices</h3>
-        <p>You can change sound, music, vibration, theme, and language preferences in the app. You can also control app data, permissions, network access, and uninstall options through Android settings. Advertising and Firebase reporting are not active in the current configuration.</p>
+        <p>You can choose whether to start a rewarded ad. Where applicable, you can review or change advertising consent from Privacy Choices in Settings. You can also reset or delete the Android advertising ID in Android settings, change game preferences in the app, clear local app data, or uninstall the app. Firebase reporting is not active in this release.</p>
 
         <h3>Data Deletion</h3>
         <p>Because Sketch Escape currently has no account or server-side player profile, there is no remote account to delete. You can delete locally stored game data by clearing the app's storage in Android settings or uninstalling the app. Platform backups may be governed separately by your device or Google account settings.</p>
@@ -238,19 +239,18 @@
         <p>Publisher: <strong>Computuning Games</strong></p>
         <p>For privacy questions or requests, contact:</p>
         <span class="contact">computuning@gmail.com</span>
-        <p class="note">This placeholder must be replaced with a monitored contact address before publication.</p>
       </section>
 
       <section id="turkce" lang="tr">
         <h2>Gizlilik Politikası</h2>
-        <p class="updated"><strong>Son güncelleme:</strong> 26 Ağustos 2026</p>
+        <p class="updated"><strong>Son güncelleme:</strong> 22 Eylül 2026</p>
 
         <h3>Sketch Escape Hakkında</h3>
         <p>Sketch Escape, Computuning Games tarafından yayımlanan ve öncelikle çevrimdışı çalışan bir mobil bulmaca oyunudur. Oynamak için hesap gerekmez.</p>
-        <p class="status"><strong>Mevcut yapılandırma:</strong> reklamlar, Firebase başlatma ve hata raporlama kapalıdır. Oyun, ilerleme veya ayar verilerini bir Computuning Games sunucusuna göndermez. İsteğe bağlı üçüncü taraf entegrasyonları, bunları etkinleştiren herhangi bir yapılandırma dağıtılmadan önce bu politikanın doğru biçimde güncellenebilmesi için aşağıda açıklanmıştır.</p>
+        <p class="status"><strong>Mevcut üretim yapılandırması:</strong> oyuncunun isteğiyle açılan ödüllü reklamlar Google AdMob üzerinden sunulur. Banner ve geçiş reklamları, Unity Ads, Firebase başlatma ve hata raporlama kapalıdır. Oyun, ilerleme veya ayar verilerini bir Computuning Games sunucusuna göndermez.</p>
 
         <h3>Topladığımız Bilgiler</h3>
-        <p>Mevcut yapılandırmada Computuning Games, Sketch Escape üzerinden kişisel bilgi toplamaz. Uygulamada hesap kaydı, giriş, profil veya kişisel veri giriş formu yoktur; konum, kişiler, kamera, mikrofon ya da dosya depolama erişimi istenmez.</p>
+        <p>Computuning Games bir hesap, profil, kişisel veri formu veya birinci taraf sunucu üzerinden bilgi toplamaz. Uygulama konum, kişiler, kamera, mikrofon ya da dosya depolama erişimi istemez. Google Mobile Ads aşağıda açıklanan reklamla ilgili bilgileri otomatik olarak toplayabilir ve paylaşabilir.</p>
 
         <h3>Cihazınızda Saklanan Bilgiler</h3>
         <p>Sketch Escape, ilerlemenizi ve tercihlerinizi hatırlamak için oyun verilerini cihazınızda yerel olarak saklar. Bunlar şunları içerebilir:</p>
@@ -264,14 +264,15 @@
         <p>Bu veriler cihazın yerel uygulama depolamasında tutulur. Bir hesaba bağlı değildir ve mevcut yapılandırmada Computuning Games sunucusuna gönderilmez.</p>
 
         <h3>Reklamlar</h3>
-        <p>Mevcut yapılandırmada reklamlar kapalıdır; uygulama reklam başlatmaz veya göstermez. Kod tabanı, gelecekteki olası bir production yapılandırması için Google Mobile Ads SDK'sını içerir. Bu bağımlılık, çalışma anında reklam başlatma kapalı olsa bile Android uygulama paketine reklamla ilgili yetenek ve izinler ekleyebilir.</p>
-        <p>Gelecekte dağıtılan bir sürümde reklamlar etkinleştirilirse Google ve iş ortakları; cihaz tanımlayıcıları, IP adresi, reklam etkileşimleri, tanılama verileri ve başka verileri kendi koşulları kapsamında işleyebilir. Böyle bir sürüm yayımlanmadan önce bu politika ve Google Play Veri güvenliği beyanı yeniden incelenip güncellenecektir. <a href="https://policies.google.com/technologies/ads">Google'ın reklamlar için bilgi kullanımı</a> ve <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a> sayfalarına bakabilirsiniz.</p>
+        <p>Sketch Escape, oyuncu oyun içindeki reklamlı bir işlemi seçtikten sonra isteğe bağlı ödüllü reklam sunar. Oyun ödülü yalnızca reklam sağlayıcısı ödüllü reklamın başarıyla tamamlandığını bildirdikten sonra verilir. Bu sürümde banner ve otomatik geçiş reklamları kapalıdır.</p>
+        <p>Google Mobile Ads SDK; genel konumu tahmin etmekte kullanılabilecek IP adresini, uygulama açılışı, dokunma ve video izleme gibi uygulama ve reklam etkileşimlerini, tanılama ve performans bilgilerini, Android reklam kimliği ve app set ID gibi cihaz veya hesap tanımlayıcılarını otomatik olarak toplayabilir ve paylaşabilir. Google bu verilerin reklamcılık, analiz ve sahtekârlığı önleme amaçlarıyla kullanıldığını ve aktarım sırasında şifrelendiğini belirtir. <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads veri açıklaması</a>, <a href="https://policies.google.com/technologies/ads">Google'ın reklamlar için bilgi kullanımı</a> ve <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a> sayfalarına bakabilirsiniz.</p>
+        <p>Sketch Escape, gerekli olduğu bölgelerde reklam isteği yapmadan önce reklam rızasını istemek ve tercihleri saklamak için Google User Messaging Platform'u kullanır. Google bir gizlilik seçenekleri formunun gerekli olduğunu bildirdiğinde Ayarlar'da Gizlilik Tercihleri girişi kullanılabilir.</p>
 
         <h3>Analiz ve Hata Raporlama</h3>
         <p>Firebase Core ve Firebase Crashlytics entegrasyon kodu vardır; ancak mevcut yapılandırmada Firebase başlatma ve Crashlytics raporlama kapalıdır. Firebase Analytics projeye dahil değildir ve kullanılmaz. Gelecekte dağıtılan bir sürümde Crashlytics veya başka bir Firebase hizmeti etkinleştirilirse politika ve mağaza beyanları yayımdan önce güncellenecektir. Ayrıntılar için <a href="https://firebase.google.com/support/privacy">Firebase Gizlilik ve Güvenlik</a> sayfasına bakabilirsiniz.</p>
 
         <h3>Üçüncü Taraf Hizmetleri</h3>
-        <p>Projede Google Mobile Ads, Firebase Core/Crashlytics ve Unity Ads için isteğe bağlı entegrasyonlar bulunur. Mevcut yapılandırmada bu hizmetler reklam, analiz veya hata raporlama amacıyla başlatılmaz. Unity Ads açıkça kapalıdır. Açmayı seçtiğiniz bağlantılar ve mevcut olduğunda Google Play güncelleme özellikleri, ilgili platform veya dış hizmet tarafından kendi gizlilik koşulları kapsamında yönetilir.</p>
+        <p>Google Mobile Ads yalnızca oyuncunun isteğiyle açılan ödüllü reklamlar için aktiftir. Firebase Core/Crashlytics ve Unity Ads kodu projede bulunur ancak bu hizmetler mevcut üretim yapılandırmasında başlatılmaz. Açmayı seçtiğiniz bağlantılar ve mevcut olduğunda Google Play güncelleme özellikleri, ilgili platform veya dış hizmet tarafından kendi gizlilik koşulları kapsamında yönetilir.</p>
 
         <h3>Çocukların Gizliliği</h3>
         <p>Sketch Escape özellikle çocuklara yönelik değildir. Uygulama, bir çocuğun Computuning Games'e kişisel bilgi gönderebileceği bir hesap veya form sunmaz. Beklenmedik biçimde bilgi sağlandığını düşünüyorsanız aşağıdaki iletişim bilgisini kullanın.</p>
@@ -283,7 +284,7 @@
         <p>Sketch Escape, oyun ilerlemesi ve tercihlerini cihazda tutarak veri işlemeyi en aza indirir. Hiçbir depolama yöntemi tamamen güvenli kabul edilemeyeceğinden cihazınızın ve platformunuzun sunduğu güvenlik özelliklerini de kullanmalısınız.</p>
 
         <h3>Tercihleriniz</h3>
-        <p>Uygulama içinden ses, müzik, titreşim, tema ve dil tercihlerini değiştirebilirsiniz. Android ayarlarından uygulama verilerini, izinleri, ağ erişimini ve kaldırma seçeneklerini de yönetebilirsiniz. Mevcut yapılandırmada reklam ve Firebase raporlaması aktif değildir.</p>
+        <p>Ödüllü reklamı başlatıp başlatmamayı seçebilirsiniz. Uygulanabildiği yerde Ayarlar'daki Gizlilik Tercihleri üzerinden reklam rızasını inceleyebilir veya değiştirebilirsiniz. Android ayarlarından reklam kimliğini sıfırlayabilir ya da silebilir, uygulama verilerini temizleyebilir veya uygulamayı kaldırabilirsiniz. Firebase raporlaması bu sürümde aktif değildir.</p>
 
         <h3>Verilerin Silinmesi</h3>
         <p>Sketch Escape'in şu anda hesabı veya sunucu taraflı oyuncu profili olmadığı için silinecek uzak bir hesap yoktur. Android ayarlarından uygulamanın depolama alanını temizleyerek veya uygulamayı kaldırarak yerel verileri silebilirsiniz. Platform yedeklemeleri cihazınızın veya Google hesabınızın ayarlarına göre ayrıca yönetilebilir.</p>
@@ -295,7 +296,6 @@
         <p>Yayımcı: <strong>Computuning Games</strong></p>
         <p>Gizlilik soruları veya talepleri için:</p>
         <span class="contact">computuning@gmail.com</span>
-        <p class="note">Bu placeholder yayımdan önce düzenli olarak takip edilen bir iletişim adresiyle değiştirilmelidir.</p>
       </section>
     </main>
 
